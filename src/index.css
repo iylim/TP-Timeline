@@ -3,8 +3,8 @@ body {
   padding: 0;
   font-family: Roboto, Oxygen, Ubuntu, sans-serif;
   color: #FA7268;
-  background-color: #ddcad9;
-  background-image: linear-gradient(315deg, #ddcad9 0%, #d1b1cb 74%);
+  background-color: #263056;
+  /* background-image: linear-gradient(315deg, #ddcad9 0%, #d1b1cb 74%); */
   }
 
 header {

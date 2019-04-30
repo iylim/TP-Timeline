@@ -6,6 +6,8 @@ import rollercoaster from './images/rollercoaster.jpg';
 import logo from './images/Talent-Path-logo.png';
 import disney from './images/disney.JPG';
 import connectFour from './images/connect-four.png'
+import movieMatchmaker from './images/MovieMatchmaker.png';
+import yaMovie from './images/YaMovie.png';
 
 class TPTimeline extends Component {
   render() {
@@ -151,7 +153,7 @@ class TPTimeline extends Component {
             icon={<FontAwesomeIcon icon={['fab', 'js-square']} />}
             >
             <h3 className="vertical-timeline-element-title">JavaScript cont.</h3>
-            <h4 className="vertical-timeline-element-subtitle">Create Connect 4 App.</h4>
+            <h4 className="vertical-timeline-element-subtitle">Create Connect Four App.</h4>
             <p>
               We began creating a Connect Four application using HTML, CSS and JavaScript.
             </p>
@@ -239,6 +241,133 @@ class TPTimeline extends Component {
             <h4 className="vertical-timeline-element-subtitle">Getting React-y.</h4>
             <p>
               We learned about web components in vanilla JS. Make code modular. Learned Andrew ❤s Wes Bos.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="Feb 20"
+            animate={true}
+            iconStyle={{ background: '#FA7268', color: '#fff' }}
+            icon={<FontAwesomeIcon icon={['fab', 'js-square']} />}
+            >
+            <h3 className="vertical-timeline-element-title">Project Pitches.</h3>
+            <h4 className="vertical-timeline-element-subtitle">Movie tinder?</h4>
+            <br />
+            <a href="https://infograph.venngage.com/view/27ed5d21-c036-45eb-a0d9-f207433f4e30" target="blank" ><img src={movieMatchmaker} alt='movieMatchmaker' width="450px" height="250px" /> </a>
+            <p>
+              Click image to see presentation on Venngage. <br /> 
+              We continued pair coding web components. Pitched our project ideas. I presented an idea for a movie matchmaker.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="Feb 21 - Feb 22"
+            animate={true}
+            iconStyle={{ background: '#FA7268', color: '#fff' }}
+            icon={<FontAwesomeIcon icon={['fab', 'js-square']} />}
+            >
+            <h3 className="vertical-timeline-element-title">Team YaMovie!</h3>
+            <h4 className="vertical-timeline-element-subtitle">Project work.</h4>
+            <br />
+            <img src={yaMovie} alt='YaMovie logo' width="430px" height="100px" />
+            <p>
+              We met with our group and organized our projects on Github. We had a rotating SCRUM master each week. Sam was appointed Github manager/documenter. Developed our branding. 
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="Feb 25 - Feb 26"
+            animate={true}
+            iconStyle={{ background: '#FA7268', color: '#fff' }}
+            icon={<FontAwesomeIcon icon={['fab', 'node-js']} />}
+            >
+            <h3 className="vertical-timeline-element-title">Node and Asynchronous JS.</h3>
+            <h4 className="vertical-timeline-element-subtitle">Callback, Promises, Async/Await.</h4>
+            <p>
+              We learned about callbacks, promises, and async/await by refactoring code. Callbacks are the old way to do things, promises are good but async/await is life-changing.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="Feb 27"
+            animate={true}
+            iconStyle={{ background: '#FA7268', color: '#fff' }}
+            icon={<FontAwesomeIcon icon={['fab', 'node-js']} />}
+            >
+            <h3 className="vertical-timeline-element-title">Express.</h3>
+            <h4 className="vertical-timeline-element-subtitle">Restful API, HTTP verbs, CRUD.</h4>
+            <p>
+              Learned Express used with Node. We learned how HTTP verbs correlate to a CRUD operation.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="Mar 1"
+            animate={true}
+            iconStyle={{ background: '#FA7268', color: '#fff' }}
+            icon={<FontAwesomeIcon icon={['fab', 'node-js']} />}
+            >
+            <h3 className="vertical-timeline-element-title">Project Presentations.</h3>
+            <h4 className="vertical-timeline-element-subtitle">First sprint completed.</h4>
+            <p>
+              We completed our first sprint working for a few hours each day. By this week, we had our branding: logo, color palette, and Lloyd. Our working application included the browse and about page.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="Mar 4"
+            animate={true}
+            iconStyle={{ background: '#FA7268', color: '#fff' }}
+            icon={<FontAwesomeIcon icon={['fab', 'node-js']} />}
+            >
+            <h3 className="vertical-timeline-element-title">Consuming APIs.</h3>
+            <h4 className="vertical-timeline-element-subtitle">Message board app.</h4>
+            <p>
+              We practiced consuming APIs with a message board application. We hosted the comments on Heroku to be consumed.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="Mar 5"
+            animate={true}
+            iconStyle={{ background: '#FA7268', color: '#fff' }}
+            icon={<FontAwesomeIcon icon={['fab', 'react']} />}
+            >
+            <h3 className="vertical-timeline-element-title">React.</h3>
+            <h4 className="vertical-timeline-element-subtitle">Postie codealong.</h4>
+            <p>
+              First day of React. Single page application with users and posts.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="Mar 6 - Mar 8"
+            animate={true}
+            iconStyle={{ background: '#FA7268', color: '#fff' }}
+            icon={<FontAwesomeIcon icon={['fab', 'react']} />}
+            >
+            <h3 className="vertical-timeline-element-title">Pokemon Teambuilder.</h3>
+            <h4 className="vertical-timeline-element-subtitle">Extreme programming.</h4>
+            <br />
+            <a href="https://pokemon-teambuilder.netlify.com/" target='blank'>
+            <img src='https://i.imgur.com/l9aCuHC.png?1' alt="pokemon team-builder" width="450px" height="220px" />
+            </a>
+            <p>
+              Click image to check out the app on Netlify. <br />
+              Created an application to build a pokemon team of 6. Using the PokeAPI hosted database on Firebase. React, Node and Express.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="Mar 11"
+            animate={true}
+            iconStyle={{ background: '#FA7268', color: '#fff' }}
+            icon={<FontAwesomeIcon icon={['fab', 'react']} />}
+            >
+            <h3 className="vertical-timeline-element-title">Routing.</h3>
+            <h4 className="vertical-timeline-element-subtitle">Postie routes.</h4>
+            <p>
+              Implemented React router in our Postie applications. Created routes for all posts, a single post, and users.
             </p>
           </VerticalTimelineElement>
 
