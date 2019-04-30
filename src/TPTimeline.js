@@ -248,7 +248,7 @@ class TPTimeline extends Component {
             <h3 className="vertical-timeline-element-title">Project Pitches.</h3>
             <h4 className="vertical-timeline-element-subtitle">Movie tinder?</h4>
             <br />
-            <a href="https://infograph.venngage.com/view/27ed5d21-c036-45eb-a0d9-f207433f4e30" target="blank" ><img src='./images/MovieMatchmaker.png' alt='movieMatchmaker' width="450px" height="250px" /> </a>
+            <a href="https://infograph.venngage.com/ps/1ITvWoYoljg/purple-checkered-social-media-presentation" target="blank" ><img src='./images/MovieMatchmaker.png' alt='movieMatchmaker' width="450px" height="250px" /> </a>
             <p>
               Click image to see presentation on Venngage. <br /> 
               We continued pair coding web components. Pitched our project ideas. I presented an idea for a movie matchmaker.
