@@ -2,24 +2,18 @@ import React, {Component, Fragment} from 'react';
 import VerticalTimeline  from './Timeline';
 import VerticalTimelineElement from './TimelineItem';
 import { FontAwesomeIcon } from './utils/FontAwesome';
-import rollercoaster from './images/rollercoaster.jpg';
-import logo from './images/Talent-Path-logo.png';
-import disney from './images/disney.JPG';
-import connectFour from './images/connect-four.png'
-import movieMatchmaker from './images/MovieMatchmaker.png';
-import yaMovie from './images/YaMovie.png';
 
 class TPTimeline extends Component {
   render() {
     return(
       <Fragment>
         <header>
-          <img src={logo} alt='Talent Path Logo' />
+          <img src='./images/Talent-Path-logo.png' alt='Talent Path Logo' />
           <h2>Track 3 Timeline</h2>
         </header>
         <VerticalTimeline>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
+            className="vertical-timeline-element"
             date="Jan 28"
             animate={true}
             iconStyle={{ background: '#FA7268', color: '#fff' }}
@@ -28,13 +22,13 @@ class TPTimeline extends Component {
             <h3 className="vertical-timeline-element-title">First Day!</h3>
             <h4 className="vertical-timeline-element-subtitle">Met the Cohort.</h4>
             <br />
-            <img src={rollercoaster} alt="rollercoaster" width="450px" height="250px" />
+            <img src='./images/rollercoaster.jpg' alt="rollercoaster" width="450px" height="250px" />
             <p>
               Met the instructors and cohort. We built a ping pong rollercoaster out of paper and straws.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
+            className="vertical-timeline-element"
             date="Jan 29"
             animate={true}
             iconStyle={{ background: '#FA7268', color: '#fff' }}
@@ -47,7 +41,7 @@ class TPTimeline extends Component {
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
+            className="vertical-timeline-element"
             date="Jan 30"
             animate={true}
             iconStyle={{ background: '#FA7268', color: '#fff' }}
@@ -61,23 +55,23 @@ class TPTimeline extends Component {
           </VerticalTimelineElement>
           
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
+            className="vertical-timeline-element"
             date="Jan 31"
             animate={true}
             iconStyle={{ background: '#FA7268', color: '#fff' }}
             icon={<FontAwesomeIcon icon="desktop" />}
             >
             <h3 className="vertical-timeline-element-title">What do programmers do?</h3>
-            <h4 className="vertical-timeline-element-subtitle">Specifically in the entertainment industry</h4>
+            <h4 className="vertical-timeline-element-subtitle">Specifically in the entertainment industry.</h4>
             <br />
             <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ5xgyIjnUsABRF0zscGbgeUGUtXF2jhjlVGjexuVOkQMEZ2EW6LDBCnw21L99ypokFE_Zc0lrgOQii/embed?start=false&loop=false&delayms=3000" frameborder="0" width="460" height="290" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
             <p>
               Research company job postings. What tech do they use?<br />
-              We pitched a unique game idea.
+              We presented as a group a unique game idea.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
+            className="vertical-timeline-element"
             date="Feb 1"
             animate={true}
             iconStyle={{ background: '#FA7268', color: '#fff' }}
@@ -86,13 +80,13 @@ class TPTimeline extends Component {
             <h3 className="vertical-timeline-element-title">Disney Tour!</h3>
             <h4 className="vertical-timeline-element-subtitle">Tour of broadcasting and main campus.</h4>
             <br />
-            <img src={disney} alt="disney" width="450px" height="270px"/>
+            <img src='./images/disney.JPG' alt="disney" width="450px" height="270px"/>
             <p>
               Listen to a presentation on what Disney does, learned about their hiring direction and process. Saw how shows are broadcasted and had lunch at the cafe.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
+            className="vertical-timeline-element"
             date="Feb 4"
             animate={true}
             iconStyle={{ background: '#FA7268', color: '#fff' }}
@@ -106,7 +100,7 @@ class TPTimeline extends Component {
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
+            className="vertical-timeline-element"
             date="Feb 5"
             animate={true}
             iconStyle={{ background: '#FA7268', color: '#fff' }}
@@ -119,7 +113,7 @@ class TPTimeline extends Component {
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
+            className="vertical-timeline-element"
             date="Feb 6"
             animate={true}
             iconStyle={{ background: '#FA7268', color: '#fff' }}
@@ -132,7 +126,7 @@ class TPTimeline extends Component {
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
+            className="vertical-timeline-element"
             date="Feb 7"
             animate={true}
             iconStyle={{ background: '#FA7268', color: '#fff' }}
@@ -146,7 +140,7 @@ class TPTimeline extends Component {
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
+            className="vertical-timeline-element"
             date="Feb 8"
             animate={true}
             iconStyle={{ background: '#FA7268', color: '#fff' }}
@@ -159,7 +153,7 @@ class TPTimeline extends Component {
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
+            className="vertical-timeline-element"
             date="Feb 11"
             animate={true}
             iconStyle={{ background: '#FA7268', color: '#fff' }}
@@ -172,7 +166,7 @@ class TPTimeline extends Component {
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
+            className="vertical-timeline-element"
             date="Feb 12 - Feb 13"
             animate={true}
             iconStyle={{ background: '#FA7268', color: '#fff' }}
@@ -187,7 +181,7 @@ class TPTimeline extends Component {
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
+            className="vertical-timeline-element"
             date="Feb 14"
             animate={true}
             iconStyle={{ background: '#FA7268', color: '#fff' }}
@@ -200,7 +194,7 @@ class TPTimeline extends Component {
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
+            className="vertical-timeline-element"
             date="Feb 15"
             animate={true}
             iconStyle={{ background: '#FA7268', color: '#fff' }}
@@ -214,7 +208,7 @@ class TPTimeline extends Component {
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
+            className="vertical-timeline-element"
             date="Feb 18"
             animate={true}
             iconStyle={{ background: '#FA7268', color: '#fff' }}
@@ -224,14 +218,14 @@ class TPTimeline extends Component {
             <h4 className="vertical-timeline-element-subtitle">Modularity and Local Storage.</h4>
             <br />
             <a href='https://connect-four-app.netlify.com/' target='blank' alt='link to app'>
-              <img src={connectFour} alt="connect4" width="450px" height="200px" />
+              <img src='./images/connect-four.png' alt="connect4" width="450px" height="200px" />
             </a>
             <p>
               Click image to play. Built with HTML, CSS, JS and hosted on Netlify.       
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
+            className="vertical-timeline-element"
             date="Feb 19"
             animate={true}
             iconStyle={{ background: '#FA7268', color: '#fff' }}
@@ -244,38 +238,38 @@ class TPTimeline extends Component {
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
+            className="vertical-timeline-element "
             date="Feb 20"
             animate={true}
             iconStyle={{ background: '#FA7268', color: '#fff' }}
-            icon={<FontAwesomeIcon icon={['fab', 'js-square']} />}
+            icon={<FontAwesomeIcon icon='desktop' />}
             >
             <h3 className="vertical-timeline-element-title">Project Pitches.</h3>
             <h4 className="vertical-timeline-element-subtitle">Movie tinder?</h4>
             <br />
-            <a href="https://infograph.venngage.com/view/27ed5d21-c036-45eb-a0d9-f207433f4e30" target="blank" ><img src={movieMatchmaker} alt='movieMatchmaker' width="450px" height="250px" /> </a>
+            <a href="https://infograph.venngage.com/view/27ed5d21-c036-45eb-a0d9-f207433f4e30" target="blank" ><img src='./images/MovieMatchmaker.png' alt='movieMatchmaker' width="450px" height="250px" /> </a>
             <p>
               Click image to see presentation on Venngage. <br /> 
               We continued pair coding web components. Pitched our project ideas. I presented an idea for a movie matchmaker.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
+            className="vertical-timeline-element"
             date="Feb 21 - Feb 22"
             animate={true}
             iconStyle={{ background: '#FA7268', color: '#fff' }}
-            icon={<FontAwesomeIcon icon={['fab', 'js-square']} />}
+            icon={<FontAwesomeIcon icon='code' />}
             >
             <h3 className="vertical-timeline-element-title">Team YaMovie!</h3>
             <h4 className="vertical-timeline-element-subtitle">Project work.</h4>
             <br />
-            <img src={yaMovie} alt='YaMovie logo' width="430px" height="100px" />
+            <img src='./images/YaMovie.png' alt='YaMovie logo' width="430px" height="100px" />
             <p>
               We met with our group and organized our projects on Github. We had a rotating SCRUM master each week. Sam was appointed Github manager/documenter. Developed our branding. 
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
+            className="vertical-timeline-element"
             date="Feb 25 - Feb 26"
             animate={true}
             iconStyle={{ background: '#FA7268', color: '#fff' }}
@@ -288,7 +282,7 @@ class TPTimeline extends Component {
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
+            className="vertical-timeline-element"
             date="Feb 27"
             animate={true}
             iconStyle={{ background: '#FA7268', color: '#fff' }}
@@ -301,11 +295,11 @@ class TPTimeline extends Component {
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
+            className="vertical-timeline-element"
             date="Mar 1"
             animate={true}
             iconStyle={{ background: '#FA7268', color: '#fff' }}
-            icon={<FontAwesomeIcon icon={['fab', 'node-js']} />}
+            icon={<FontAwesomeIcon icon='desktop' />}
             >
             <h3 className="vertical-timeline-element-title">Project Presentations.</h3>
             <h4 className="vertical-timeline-element-subtitle">First sprint completed.</h4>
@@ -314,7 +308,7 @@ class TPTimeline extends Component {
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
+            className="vertical-timeline-element"
             date="Mar 4"
             animate={true}
             iconStyle={{ background: '#FA7268', color: '#fff' }}
@@ -327,7 +321,7 @@ class TPTimeline extends Component {
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
+            className="vertical-timeline-element"
             date="Mar 5"
             animate={true}
             iconStyle={{ background: '#FA7268', color: '#fff' }}
@@ -340,11 +334,11 @@ class TPTimeline extends Component {
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
+            className="vertical-timeline-element"
             date="Mar 6 - Mar 8"
             animate={true}
             iconStyle={{ background: '#FA7268', color: '#fff' }}
-            icon={<FontAwesomeIcon icon={['fab', 'react']} />}
+            icon={<FontAwesomeIcon icon='code' />}
             >
             <h3 className="vertical-timeline-element-title">Pokemon Teambuilder.</h3>
             <h4 className="vertical-timeline-element-subtitle">Extreme programming.</h4>
@@ -358,7 +352,7 @@ class TPTimeline extends Component {
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
+            className="vertical-timeline-element"
             date="Mar 11"
             animate={true}
             iconStyle={{ background: '#FA7268', color: '#fff' }}
@@ -370,8 +364,105 @@ class TPTimeline extends Component {
               Implemented React router in our Postie applications. Created routes for all posts, a single post, and users.
             </p>
           </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element"
+            date="Mar 12"
+            animate={true}
+            iconStyle={{ background: '#FA7268', color: '#fff' }}
+            icon={<FontAwesomeIcon icon={['fab', 'react']} />}
+            >
+            <h3 className="vertical-timeline-element-title">React cont.</h3>
+            <h4 className="vertical-timeline-element-subtitle">PropTypes and Firebase.</h4>
+            <p>
+              We learned about PropTypes for React and benefits. PropTypes provide extra checks. <br />
+              We also learned how to store our data on Google Firebase.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element"
+            date="Mar 15"
+            animate={true}
+            iconStyle={{ background: '#FA7268', color: '#fff' }}
+            icon={<FontAwesomeIcon icon='walking' />}
+            >
+            <h3 className="vertical-timeline-element-title">Blizzard Tour.</h3>
+            <h4 className="vertical-timeline-element-subtitle">Main campus, StarCraft, and tools.</h4>
+            <br />
+            <img src='./images/blizzard.jpg' alt="blizzard" width="450px" height="300px"/>
+            <p>
+              We had a presentation from the tools team on some of the application they created. We also got a look at what game teams do. 
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element"
+            date="Mar 20 - Mar 21"
+            animate={true}
+            iconStyle={{ background: '#FA7268', color: '#fff' }}
+            icon={<FontAwesomeIcon icon={['fab', 'react']} />}
+            >
+            <h3 className="vertical-timeline-element-title">Redux.</h3>
+            <h4 className="vertical-timeline-element-subtitle">Trello World.</h4>
+            <p>
+              We created a Trello clone and implemented redux for state management.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element"
+            date="Mar 26"
+            animate={true}
+            iconStyle={{ background: '#FA7268', color: '#fff' }}
+            icon={<FontAwesomeIcon icon='database' />}
+            >
+            <h3 className="vertical-timeline-element-title">MongoDB.</h3>
+            <h4 className="vertical-timeline-element-subtitle">Atlas, Compass and Mongoose.</h4>
+            <p>
+              We setup to use MongoDB with Atlas and Compass. Atlas is a cloud database and Compass provides us a way to interact with our database. Hooked up our application to Mongo database with Mongoose.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element "
+            date="Apr 2"
+            animate={true}
+            iconStyle={{ background: '#FA7268', color: '#fff' }}
+            icon={<FontAwesomeIcon icon='key' />}
+            >
+            <h3 className="vertical-timeline-element-title">Authentication.</h3>
+            <h4 className="vertical-timeline-element-subtitle">JSON web tokens.</h4>
+            <p>
+              We created user login in our message board app. We encrypted user passwords to be stored in our database. We used passport middleware to issue JSON tokens.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element"
+            date="Apr 8 - Apr 12"
+            animate={true}
+            iconStyle={{ background: '#FA7268', color: '#fff' }}
+            icon={<FontAwesomeIcon icon='chalkboard-teacher' />}
+            >
+            <h3 className="vertical-timeline-element-title">Interview Prep.</h3>
+            <h4 className="vertical-timeline-element-subtitle">Code challenges and mock interviews.</h4>
+            <p>
+              We worked on various code challenges and mock interviews.  We did one on one code reviews with Andrew.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element"
+            date="Apr 17"
+            animate={true}
+            iconStyle={{ background: '#FA7268', color: '#fff' }}
+            icon={<FontAwesomeIcon icon='graduation-cap' />}
+            >
+            <h3 className="vertical-timeline-element-title">Graduation.</h3>
+            <h4 className="vertical-timeline-element-subtitle">Beta launch of YaMovie.</h4>
+            <br />
+            <a href="https://yamovie.me" target='blank'>
+            <img src='https://i.imgur.com/rhdXkTz.png?1' alt="YaMovie" width="450px" height="220px" />
+            </a>
+            <p>
+              Last day of training! We presented full working version of our application we have been working on over the last few weeks.
+            </p>
+          </VerticalTimelineElement>
 
-          {/* connect four application https://connect-four-app.netlify.com/ */}
         </VerticalTimeline>
     </Fragment>
     )
