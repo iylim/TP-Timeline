@@ -4,6 +4,7 @@
   margin: 2em auto;
   position: relative;
   padding: 2em 0;
+  margin-top: 0;
 }
 .vertical-timeline::after {
   /* clearfix */

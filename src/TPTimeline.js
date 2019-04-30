@@ -2,6 +2,7 @@ import React, {Component, Fragment} from 'react';
 import VerticalTimeline  from './Timeline';
 import VerticalTimelineElement from './TimelineItem';
 import { FontAwesomeIcon } from './utils/FontAwesome';
+import './index.css'
 
 class TPTimeline extends Component {
   render() {
