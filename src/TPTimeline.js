@@ -459,7 +459,7 @@ class TPTimeline extends Component {
             <img src='https://i.imgur.com/rhdXkTz.png?1' alt="YaMovie" width="450px" height="220px" />
             </a>
             <p>
-              Last day of training! We presented full working version of our application we have been working on over the last few weeks.
+              Click to check out YaMovie. Last day of training! We presented full working version of our application we have been working on over the last few weeks.
             </p>
           </VerticalTimelineElement>
 
