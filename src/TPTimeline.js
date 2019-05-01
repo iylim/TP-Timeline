@@ -176,7 +176,7 @@ class TPTimeline extends Component {
             <h3 className="vertical-timeline-element-title">Time Management</h3>
             <h4 className="vertical-timeline-element-subtitle">Real world experience in time management.</h4>
             <br />
-            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTLDi-vCvACY9C6g_ySulZ0l_4sA9PhljTbt9EVCFJTjuR-1llcXWOIadLIJeFrkxflmHD8hGc2_NJx/embed?start=false&loop=false&delayms=3000" frameborder="0" width="465" height="290" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTLDi-vCvACY9C6g_ySulZ0l_4sA9PhljTbt9EVCFJTjuR-1llcXWOIadLIJeFrkxflmHD8hGc2_NJx/embed?start=false&loop=false&delayms=3000" frameborder="0" width="460" height="290" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
             <p>
               We learned the importance of time management and asking questions through an exercise. We had to research one of four companies working in small groups to present to each other. The only guideline was that we had to 
             </p>
@@ -222,7 +222,8 @@ class TPTimeline extends Component {
               <img src='./images/connect-four.png' alt="connect4" width="450px" height="200px" />
             </a>
             <p>
-              Click image to play. Built with HTML, CSS, JS and hosted on Netlify.       
+              Click image to play. <br />
+              Built with HTML, CSS, JS and hosted on Netlify.       
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -421,6 +422,22 @@ class TPTimeline extends Component {
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
+            className="vertical-timeline-element"
+            date="Mar 29"
+            animate={true}
+            iconStyle={{ background: '#FA7268', color: '#fff' }}
+            icon={<FontAwesomeIcon icon='handshake' />}
+            >
+            <h3 className="vertical-timeline-element-title">MotorTrend.</h3>
+            <h4 className="vertical-timeline-element-subtitle">First client presentation.</h4>
+            <br />
+            <iframe src="https://drive.google.com/file/d/15IKmPaICAO6KeIEWc_eJ1c6YYg3E2bsC/preview" width="460" height="290"></iframe>
+            <p>
+              We created a commercial product pitch for MotorTrend. A c.A.R. Spotter app. <br />
+              We met with MotorTrend and shared what we have been working on. 
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
             className="vertical-timeline-element "
             date="Apr 2"
             animate={true}
@@ -434,6 +451,34 @@ class TPTimeline extends Component {
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
+            className="vertical-timeline-element "
+            date="Apr 3"
+            animate={true}
+            iconStyle={{ background: '#FA7268', color: '#fff' }}
+            icon={<FontAwesomeIcon icon='handshake' />}
+            >
+            <h3 className="vertical-timeline-element-title">Cornerstone on Demand.</h3>
+            <h4 className="vertical-timeline-element-subtitle">Cornerstone visit.</h4>
+            <p>
+              We presented our application to Cornerstone on Demand and recieved feedback. They shared what other positions available besides software engineers such as project managers and designers. 
+            </p>
+          </VerticalTimelineElement>
+
+          {/* april 5 escape room */}
+          <VerticalTimelineElement
+            className="vertical-timeline-element"
+            date="Apr 8"
+            animate={true}
+            iconStyle={{ background: '#FA7268', color: '#fff' }}
+            icon={<FontAwesomeIcon icon='handshake' />}
+            >
+            <h3 className="vertical-timeline-element-title">Sysco.</h3>
+            <h4 className="vertical-timeline-element-subtitle">Sysco came out from Texas to visit.</h4>
+            <p>
+              We had a visit from Sysco and we were able to share our presentation. They provided feedback, told us about the company, shared their experiences and what it is like to work there.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
             className="vertical-timeline-element"
             date="Apr 8 - Apr 12"
             animate={true}
@@ -444,6 +489,19 @@ class TPTimeline extends Component {
             <h4 className="vertical-timeline-element-subtitle">Code challenges and mock interviews.</h4>
             <p>
               We worked on various code challenges and mock interviews.  We did one on one code reviews with Andrew.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element"
+            date="Apr 15"
+            animate={true}
+            iconStyle={{ background: '#FA7268', color: '#fff' }}
+            icon={<FontAwesomeIcon icon='handshake' />}
+            >
+            <h3 className="vertical-timeline-element-title">Magenic.</h3>
+            <h4 className="vertical-timeline-element-subtitle">Magenic visited.</h4>
+            <p>
+              We had a visitor from Magenic that shared what their company does. We shared our presentation and recieved feedback.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
