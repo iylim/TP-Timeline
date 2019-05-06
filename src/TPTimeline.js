@@ -420,7 +420,7 @@ class TPTimeline extends Component {
             iconStyle={{ background: '#FA7268', color: '#fff' }}
             icon={<FontAwesomeIcon icon='walking' />}
             >
-            <h3 className="vertical-timeline-element-title">Volenteering.</h3>
+            <h3 className="vertical-timeline-element-title">Volunteering.</h3>
             <h4 className="vertical-timeline-element-subtitle">Food Bank.</h4>
             <br />
             <img src="./images/food-bank.jpg" alt="foodbank" width="430px" height="290px" />
