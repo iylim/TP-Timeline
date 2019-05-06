@@ -161,12 +161,13 @@
 }
 .vertical-timeline-element-content p, .vertical-timeline-element-content .vertical-timeline-element-date {
   font-size: 13px;
-  font-size: 0.8125rem;
+  font-size: 0.925rem;
   font-weight: 500;
 }
 .vertical-timeline-element-content .vertical-timeline-element-date {
   display: inline-block;
   color: white;
+  color: #FA7268;
 }
 .vertical-timeline-element-content p {
   margin: 1em 0 0;
@@ -212,6 +213,7 @@
   .vertical-timeline-element-content .vertical-timeline-element-date {
     font-size: 14px;
     font-size: 0.875rem;
+    color: #FA7268;
   }
 }
 @media only screen and (min-width: 1170px) {
@@ -234,6 +236,7 @@
     top: 6px;
     font-size: 16px;
     font-size: 1rem;
+    color: #FA7268;
   }
 
   .vertical-timeline--two-columns .vertical-timeline-element:nth-child(even):not(.vertical-timeline-element--left) .vertical-timeline-element-content,
@@ -254,6 +257,7 @@
     left: auto;
     right: 124%;
     text-align: right;
+    color: #FA7268;
   }
 }
 

@@ -25,7 +25,7 @@ class TPTimeline extends Component {
             <br />
             <img src='./images/rollercoaster.jpg' alt="rollercoaster" width="450px" height="250px" />
             <p>
-              Met the instructors and cohort. We built a ping pong rollercoaster out of paper and straws.
+              Met the instructors and cohort. <br /> We had an icebreaker exercise to build a ping pong rollercoaster out of paper and straws.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -36,7 +36,7 @@ class TPTimeline extends Component {
             icon={<FontAwesomeIcon icon="chalkboard-teacher" />}
             >
             <h3 className="vertical-timeline-element-title">Leadership.</h3>
-            <h4 className="vertical-timeline-element-subtitle">What makes a great leader? < br />with Jeff Frey.</h4>
+            <h4 className="vertical-timeline-element-subtitle">What makes a great leader? with Jeff Frey.</h4>
             <p>
               We shared our real life superpowers. Mine is I have an amazing memory. <br /> We did self SWOT analysis.
             </p>
@@ -51,7 +51,8 @@ class TPTimeline extends Component {
             <h3 className="vertical-timeline-element-title">World Wide Web.</h3>
             <h4 className="vertical-timeline-element-subtitle">What do we know about the web?</h4>
             <p>
-              We learned different ways to serve a static site. <br /> Worked in groups to research web protocols, web servers and browser security.
+              We learned different ways to serve a static site. <br /> 
+              Worked in groups to research and present web protocols, web servers and browser security.
             </p>
           </VerticalTimelineElement>
           
@@ -67,7 +68,7 @@ class TPTimeline extends Component {
             <br />
             <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ5xgyIjnUsABRF0zscGbgeUGUtXF2jhjlVGjexuVOkQMEZ2EW6LDBCnw21L99ypokFE_Zc0lrgOQii/embed?start=false&loop=false&delayms=3000" frameborder="0" width="460" height="290" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
             <p>
-              Research company job postings. What tech do they use?<br />
+              We researched company job postings. What tech do they use? <br />
               We presented as a group a unique game idea.
             </p>
           </VerticalTimelineElement>
@@ -97,7 +98,7 @@ class TPTimeline extends Component {
             <h4 className="vertical-timeline-element-subtitle">Coding begins.</h4>
             <p>
               We learned about HTML semantics and their benefits. <br />
-              Git codealong.
+              Git codealong portfolio page.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -136,7 +137,7 @@ class TPTimeline extends Component {
             <h3 className="vertical-timeline-element-title">JavaScript.</h3>
             <h4 className="vertical-timeline-element-subtitle">Tools Setup.</h4>
             <p>
-              We set up tools such as ESLint, snippets. We went over data structures and discussed Javascript in general.
+              We set up tools such as ESLint, snippets. We went over data structures and discussed Javascript in general. <br />
               Got some code practice with pair programming JS Cardio. 
             </p>
           </VerticalTimelineElement>
@@ -178,7 +179,7 @@ class TPTimeline extends Component {
             <br />
             <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTLDi-vCvACY9C6g_ySulZ0l_4sA9PhljTbt9EVCFJTjuR-1llcXWOIadLIJeFrkxflmHD8hGc2_NJx/embed?start=false&loop=false&delayms=3000" frameborder="0" width="460" height="290" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
             <p>
-              We learned the importance of time management and asking questions through an exercise. We had to research one of four companies working in small groups to present to each other. The only guideline was that we had to 
+              We learned the importance of time management and asking questions through an exercise. We had to research one of four companies working in small groups to present to each other. The only guideline was that it was a 15-20min presentation to executives at the business and Talent Path. We had to include an overview, market segment, competition and opportunities for partnership.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -191,7 +192,7 @@ class TPTimeline extends Component {
             <h3 className="vertical-timeline-element-title">The Genuent Team!</h3>
             <h4 className="vertical-timeline-element-subtitle">Met Candice and Mackeever.</h4>
             <p>
-              We met the Genuent team that supports Talent Path. Candice works with corporate partners. Mackeever manages the region. We practiced asking questions.
+              We met the Genuent team that supports Talent Path. Candice works with corporate partners. Mackeever manages the region. <br /> We practiced asking questions.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -219,10 +220,10 @@ class TPTimeline extends Component {
             <h4 className="vertical-timeline-element-subtitle">Modularity and Local Storage.</h4>
             <br />
             <a href='https://connect-four-app.netlify.com/' target='blank' alt='link to app'>
-              <img src='./images/connect-four.png' alt="connect4" width="450px" height="200px" />
+              <img src='./images/connect-four.png' alt="connect4" width="430px" height="200px" />
             </a>
             <p>
-              Click image to play. <br />
+              Click image to play Connect Four. <br />
               Built with HTML, CSS, JS and hosted on Netlify.       
             </p>
           </VerticalTimelineElement>
@@ -236,7 +237,9 @@ class TPTimeline extends Component {
             <h3 className="vertical-timeline-element-title">Web Components.</h3>
             <h4 className="vertical-timeline-element-subtitle">Getting React-y.</h4>
             <p>
-              We learned about web components in vanilla JS. Make code modular. Learned Andrew ❤s Wes Bos.
+              We learned about web components in vanilla JS which helps make code modular. <br />
+              We did a codealong to create a WYSIWYG editor. <br /> 
+              Learned Andrew ❤s Wes Bos.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -252,7 +255,8 @@ class TPTimeline extends Component {
             <a href="https://infograph.venngage.com/ps/1ITvWoYoljg/purple-checkered-social-media-presentation" target="blank" ><img src='./images/MovieMatchmaker.png' alt='movieMatchmaker' width="450px" height="250px" /> </a>
             <p>
               Click image to see presentation on Venngage. <br /> 
-              We continued pair coding web components. Pitched our project ideas. I presented an idea for a movie matchmaker.
+              We continued pair coding web components. <br /> 
+              Pitched our project ideas. I presented an idea for a movie matchmaker.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -265,9 +269,9 @@ class TPTimeline extends Component {
             <h3 className="vertical-timeline-element-title">Team YaMovie!</h3>
             <h4 className="vertical-timeline-element-subtitle">Project work.</h4>
             <br />
-            <img src='./images/YaMovie.png' alt='YaMovie logo' width="430px" height="100px" />
+            <img src='./images/YaMovie.png' alt='YaMovie logo' width="400px" height="100px" />
             <p>
-              We met with our group and organized our projects on Github. We had a rotating SCRUM master each week. Sam was appointed Github manager/documenter. Developed our branding. 
+              We met with our group and organized our projects on Github. Our team decided to rotate SCRUM master each week. Sam was appointed Github manager/documenter. Developed our branding. 
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -293,7 +297,7 @@ class TPTimeline extends Component {
             <h3 className="vertical-timeline-element-title">Express.</h3>
             <h4 className="vertical-timeline-element-subtitle">Restful API, HTTP verbs, CRUD.</h4>
             <p>
-              Learned Express used with Node. We learned how HTTP verbs correlate to a CRUD operation.
+              Learned Express used with Node. We learned semantic API designs and how HTTP verbs correlate to a CRUD operation.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -306,7 +310,7 @@ class TPTimeline extends Component {
             <h3 className="vertical-timeline-element-title">Project Presentations.</h3>
             <h4 className="vertical-timeline-element-subtitle">First sprint completed.</h4>
             <p>
-              We completed our first sprint working for a few hours each day. By this week, we had our branding: logo, color palette, and Lloyd. Our working application included the browse and about page.
+              We completed our first sprint working for a few hours each day. By this week, we had our branding: logo, color palette, and Lloyd. Our working application included the home, browse and about page.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -332,7 +336,8 @@ class TPTimeline extends Component {
             <h3 className="vertical-timeline-element-title">React.</h3>
             <h4 className="vertical-timeline-element-subtitle">Postie codealong.</h4>
             <p>
-              First day of React. Single page application with users and posts.
+              First day of React. We covered React basics, such as state, props, actions up/data down, and immutability. <br />
+              Started Postie, a single page application with users and posts.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -410,6 +415,21 @@ class TPTimeline extends Component {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element"
+            date="Mar 22"
+            animate={true}
+            iconStyle={{ background: '#FA7268', color: '#fff' }}
+            icon={<FontAwesomeIcon icon='walking' />}
+            >
+            <h3 className="vertical-timeline-element-title">Volenteering.</h3>
+            <h4 className="vertical-timeline-element-subtitle">Food Bank.</h4>
+            <br />
+            <img src="./images/food-bank.jpg" alt="foodbank" width="430px" height="290px" />
+            <p>
+              We volunteered at the LA food bank. We assembled 2445 packages for children and the elderly.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element"
             date="Mar 26"
             animate={true}
             iconStyle={{ background: '#FA7268', color: '#fff' }}
@@ -431,7 +451,7 @@ class TPTimeline extends Component {
             <h3 className="vertical-timeline-element-title">MotorTrend.</h3>
             <h4 className="vertical-timeline-element-subtitle">First client presentation.</h4>
             <br />
-            <iframe src="https://drive.google.com/file/d/15IKmPaICAO6KeIEWc_eJ1c6YYg3E2bsC/preview" width="460" height="290"></iframe>
+            <iframe src="https://drive.google.com/file/d/15IKmPaICAO6KeIEWc_eJ1c6YYg3E2bsC/preview" width="460" height="290" />
             <p>
               We created a commercial product pitch for MotorTrend. A c.A.R. Spotter app. <br />
               We met with MotorTrend and shared what we have been working on. 
@@ -488,7 +508,8 @@ class TPTimeline extends Component {
             <h3 className="vertical-timeline-element-title">Interview Prep.</h3>
             <h4 className="vertical-timeline-element-subtitle">Code challenges and mock interviews.</h4>
             <p>
-              We worked on various code challenges and mock interviews.  We did one on one code reviews with Andrew.
+              We worked on various code challenges and mock interviews that covered computer science fundamentals. <br /> 
+              We did one on one code reviews with Andrew. 
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -515,10 +536,11 @@ class TPTimeline extends Component {
             <h4 className="vertical-timeline-element-subtitle">Beta launch of YaMovie.</h4>
             <br />
             <a href="https://yamovie.me" target='blank'>
-            <img src='https://i.imgur.com/rhdXkTz.png?1' alt="YaMovie" width="450px" height="220px" />
+            <img src='https://i.imgur.com/rhdXkTz.png?1' alt="YaMovie" width="430px" height="220px" />
             </a>
             <p>
-              Click image to check out YaMovie. Last day of training! We presented full working version of our application we have been working on over the last few weeks.
+              Click image to check out YaMovie. <br /> Last day of training! <br /> 
+              We presented full working version of our application we have been working on over the last few weeks.
             </p>
           </VerticalTimelineElement>
 
