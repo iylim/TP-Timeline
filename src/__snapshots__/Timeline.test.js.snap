@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Timeline should render correctly in Debug 1`] = `
+<div
+  className="vertical-timeline vertical-timeline--animate vertical-timeline--two-columns"
+/>
+`;
