@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`TPTimeline should render correctly in Debug 1`] = `
+exports[`TPTimeline should render correctly without props 1`] = `
 <Fragment>
   <header>
     <img

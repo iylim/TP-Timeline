@@ -1,50 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`VerticalTimelineElement should render correctly in Debug 1`] = `
-<div
-  className="vertical-timeline-element vertical-timeline-element--no-children"
-  id=""
-  style={null}
->
-  <VisibilitySensor
-    active={true}
-    containment={null}
-    delayedCall={false}
-    intervalCheck={true}
-    intervalDelay={100}
-    minTopValue={0}
-    offset={
-      Object {
-        "bottom": 80,
-      }
-    }
-    onChange={[Function]}
-    partialVisibility={true}
-    resizeCheck={false}
-    resizeDelay={250}
-    resizeThrottle={-1}
-    scrollCheck={false}
-    scrollDelay={250}
-    scrollThrottle={-1}
-  >
-    <div>
-      <span
-        className="vertical-timeline-element-icon is-hidden"
-        onClick={null}
-        style={null}
-      />
-      <div
-        className="vertical-timeline-element-content is-hidden"
-      >
-        <span
-          className="vertical-timeline-element-date"
-        />
-      </div>
-    </div>
-  </VisibilitySensor>
-</div>
-`;
-
 exports[`VerticalTimelineElement should render correctly without props 1`] = `
 <div
   className="vertical-timeline-element vertical-timeline-element--no-children"
@@ -168,7 +123,12 @@ exports[`VerticalTimelineElement should render icon with correct styles 1`] = `
       <span
         className="vertical-timeline-element-icon is-hidden"
         onClick={null}
-        style={null}
+        style={
+          Object {
+            "background": "#FA7268",
+            "color": "#fff",
+          }
+        }
       >
         <FontAwesomeIcon
           border={false}
