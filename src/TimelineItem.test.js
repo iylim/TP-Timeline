@@ -2,6 +2,7 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import { FontAwesomeIcon } from './utils/FontAwesome';
 import VerticalTimelineElement from './TimelineItem';
+import VisibilitySensor from 'react-visibility-sensor';
 
 describe('VerticalTimelineElement', () => {
   it('should render correctly without props', () => {
@@ -23,18 +24,14 @@ describe('VerticalTimelineElement', () => {
   }) 
 })
 
-const mockTryGetValue = jest.fn(() => true);
-jest.mock('VerticalTimelineElement', () => ({   
-  onVisibilitySensorChange: jest.fn().mockImplementation(() => ({
-    tryGetValue: mockTryGetValue,
-  })), 
-}));
 
 describe('Visibility Sensor', () => {
   it('scroll should toggle component visible', () => {
-    const component = shalow(<VerticalTimelineElement />);
-    expect(mockTryGetValue).toHaveBeenCalled();
-    expect(component).toMatchSnapshot();
+    const onChangeMock = jest.fn();
+    const component = shallow(<VerticalTimelineElement />);
+    const sensor =  component.find(<VisibilitySensor onChange={onChangeMock} />);
+    sensor.simulate('change');
+    expect(onChangeMock).toBeCalled();
     component.unmount();   
   });
 });
