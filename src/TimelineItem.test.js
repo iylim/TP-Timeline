@@ -25,17 +25,13 @@ describe('VerticalTimelineElement', () => {
 })
 
 
-// describe('Visibility Sensor', () => {
-//   it('button click should toggle component', () => {
-//     function onVisibilitySensorChange(isVisible) {
-//       if (isVisible) {
-//         this.setState({ visible: true });
-//       }
-//     };
-//     const isVisible = false;
-//     const component = shallow(<VisibilitySensor onChange={onVisibilitySensorChange} isVisible={isVisible} />);
-//     window.scrollTo(5, 1000);
-
-//     expect(onVisibilitySensorChange).toHaveBeenCalled();
-//   });
-// });
+describe('Visibility Sensor', () => {
+  it('scroll should toggle component visible', () => {
+    const onChangeMock = jest.fn();
+    const component = shallow(<VerticalTimelineElement />);
+    const sensor =  component.find(<VisibilitySensor onChange={onChangeMock} />);
+    sensor.simulate('change');
+    expect(onChangeMock).toBeCalled();
+    component.unmount();   
+  });
+});
